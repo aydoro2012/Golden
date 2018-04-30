@@ -1,0 +1,382 @@
+@media (min-width: 320px) and (max-width: 1100px) {
+    .sub_menu {
+        display: block;
+    }
+    .menu li {
+        list-style: none;
+        padding-top: 15px;
+        padding: 0px;
+    }
+    .main_menu {
+        display: none;
+    }
+    .menu a {
+        text-decoration: none;
+        color: #F9F9F9;
+        font-family: Calibri;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+    .mobile_version {
+        display: block;
+    }
+    .logotype a {
+        margin-left: 20px;
+    }
+    nav {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 865px) and (max-width: 1023px) {
+    .about-us h5 {
+        font-size: 17px;
+    }
+    .about-us p {
+        font-size: 12px;
+    }
+    .right p,
+    .right h5,
+    .left p,
+    .left h5 {
+        width: 300px;
+    }
+    .empty-block {
+        width: 300px;
+    }
+    .about-us img {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 864px) {
+    .empty-block {
+        display: none;
+    }
+    .july-2010,
+    .january-2011,
+    .december-2012,
+    .february-2014,
+    .continues {
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .about-us img {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    .continues {
+        margin-bottom: 40px;
+    }
+    .about-us {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .team-1,
+    .team-2,
+    .team-3 {
+        width: 31%;
+    }
+    .block-for-photo {
+        width: 180px;
+        height: 184px;
+    }
+    .banner h1 {
+        font-size: 7vw;
+    }
+    .banner h2 {
+        font-size: 5vw;
+    }
+    header,
+    .team {
+        height: auto;
+    }
+    .team p {
+        margin-bottom: 40px;
+    }
+    .logos img {
+        margin: 32px;
+    }
+    .banner .button,
+    form .button {
+        padding: 18px 20px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+    .logotype a {
+        font-size: 33px;
+    }
+    h3 {
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .e-commerce,
+    .responsive-web,
+    .web-security {
+        width: 49%;
+        margin: 1%;
+    }
+    .services h5 {
+        margin: 5px;
+    }
+    .team-1,
+    .team-2,
+    .team-3 {
+        width: 85%;
+    }
+    .block-for-content {
+        flex-wrap: wrap;
+    }
+    .block-for-photo {
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+    }
+    .banner h1 {
+        font-size: 7vw;
+    }
+    .banner h2 {
+        font-size: 5vw;
+    }
+    header,
+    .team,
+    .about-us {
+        height: auto;
+    }
+    .team p {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .team p br,
+    .empty-block {
+        display: none;
+    }
+    .logos img {
+        margin: 34px;
+    }
+    .banner .button,
+    form .button {
+        padding: 18px 20px;
+    }
+    fieldset {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .july-2010,
+    .january-2011,
+    .december-2012,
+    .february-2014,
+    .continues {
+        flex-wrap: wrap;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .right p,
+    .right h5,
+    .left p,
+    .left h5 {
+        text-align: center;
+    }
+    .continues {
+        margin-bottom: 40px;
+    }
+    .left {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    input.name,
+    input.email,
+    input.subject,
+    textarea {
+        width: 100%;
+    }
+    textarea {
+        height: 145px;
+        margin-top: 10px;
+    }
+
+    i.fa.fa-pinterest-p,
+    i.fa.fa-instagram,
+    i.fa.fa-twitter,
+    i.fa.fa-facebook {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .team-1,
+    .team-2,
+    .team-3 {
+        width: 31%;
+    }
+    .block-for-photo {
+        width: 180px;
+        height: 184px;
+    }
+    .banner h1 {
+        font-size: 7vw;
+    }
+    .banner h2 {
+        font-size: 5vw;
+    }
+    header,
+    .team {
+        height: auto;
+    }
+    .team p {
+        margin-bottom: 40px;
+    }
+    .logos img {
+        margin: 32px;
+    }
+    .banner .button,
+    form .button {
+        padding: 18px 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .logotype a {
+        font-size: 33px;
+    }
+    .banner .button a,
+    h5,
+    input[type="submit"] {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 8vw;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    .portfolio-work-1,
+    .portfolio-work-2,
+    .portfolio-work-3,
+    .portfolio-work-4,
+    .portfolio-work-5,
+    .portfolio-work-6 {
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-work-1 img,
+    .portfolio-work-2 img,
+    .portfolio-work-3 img,
+    .portfolio-work-4 img,
+    .portfolio-work-5 img,
+    .portfolio-work-6 img {
+        width: 80%;
+    }
+    .e-commerce,
+    .responsive-web,
+    .web-security {
+        width: 90%;
+        margin: 1%;
+    }
+    .services h5 {
+        margin: 5px;
+    }
+    .team-1,
+    .team-2,
+    .team-3 {
+        width: 85%;
+    }
+    .block-for-content {
+        flex-wrap: wrap;
+    }
+    .block-for-photo {
+        width: 125px;
+        height: 125px;
+        margin-top: 20px;
+    }
+    .banner h1 {
+        font-size: 7vw;
+    }
+    .banner h2 {
+        font-size: 5vw;
+    }
+    header,
+    .team,
+    .about-us {
+        height: auto;
+    }
+    .team p {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .team p br,
+    .empty-block {
+        display: none;
+    }
+    .logos img {
+        margin: 34px;
+    }
+    .banner .button,
+    form .button {
+        padding: 14px 14px;
+    }
+    fieldset {
+        width: 90%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .july-2010,
+    .january-2011,
+    .december-2012,
+    .february-2014,
+    .continues {
+        flex-wrap: wrap;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .right p,
+    .right h5,
+    .left p,
+    .left h5 {
+        width: 320px;
+        text-align: center;
+    }
+    .continues {
+        margin-bottom: 40px;
+    }
+    .left {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    input.name,
+    input.email,
+    input.subject,
+    textarea {
+        width: 100%;
+        height: 43px;
+    }
+    textarea {
+        height: 110px;
+        width: 90%;
+        margin-top: 10px;
+    }
+    i.fa.fa-pinterest-p,
+    i.fa.fa-instagram,
+    i.fa.fa-twitter,
+    i.fa.fa-facebook {
+        font-size: 18px;
+    }
+    .facebook,
+    .twitter,
+    .pinterest,
+    .instagram {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+}
